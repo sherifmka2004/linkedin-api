@@ -1,8 +1,11 @@
+import os
 from linkedin_api import Linkedin
 from random import randint
 from re import split
 
-linkedin = Linkedin("noah@livestonetech.com", "twiggyboy3")
+username = os.environ["LINKEDIN_USERNAME"]
+password = os.environ["LINKEDIN_PASSWORD"]
+linkedin = Linkedin(username, password)
 
 companies = []
 

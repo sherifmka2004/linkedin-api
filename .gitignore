@@ -1,6 +1,7 @@
 # Linkedin-api
 **tmp/
 .env
+credentials.json
 
 # Dev
 *.pyc
